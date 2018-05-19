@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div id="titleSection">
+        <header class="headerTitle">Table Finder</header>
+        <span class="slogan">Pick Your Table Now</span>
+    </div>
+    <div id="tableContainer">
+        <div class="child" id="t1"><span class="tableNum">1</span></div>
+        <div class="child" id="t2"><span class="tableNum">2</span></div>
+        <div class="child" id="t3"><span class="tableNum">3</span></div>
+        <div class="child" id="t4"><span class="tableNum">4</span></div>
+        <div class="child" id="t5"><span class="tableNum">5</span></div>
+        <div class="child" id="t6"><span class="tableNum">6</span></div>
+        <div class="child" id="t7"><span class="tableNum">7</span></div>
+        <div class="child" id="t8"><span class="tableNum">8</span></div>
+        <div class="child" id="t9"><span class="tableNum">9</span></div>
+    </div>
+    <div id="hiddenReserveForm">
+        <span class="headerTitle">New Reservation</span>
+        <span class="slogan" id="tableToReserve">Table Number 3</span>
+        <input type="text" name="reserver" id="reserver" placeholder="Your name">
+        <input type="text" name="phone" id="phone" placeholder="Phone Number">
+        <input type="text" name="guests" id="guests" placeholder="Number of Guests">
+        <button id="saveReservation" class="styledbutton" name="save">Save</button>
+        <img id="cancelIcon" src="ic_cancel_black_18dp.png">
+    </div>    
+    <script src="jquery-3.3.1.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
